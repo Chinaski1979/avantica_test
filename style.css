@@ -1,0 +1,56 @@
+body {
+  background-color: #ecf0f1;
+  font-family: helvetica;
+  padding: 100px;
+}
+
+.main-container {
+  border: 1px solid #2980b9;
+  background: #3498db;
+  height: 320px;
+  margin: auto;
+  width: 250px;
+}
+
+.header {
+  text-align: center;
+}
+
+.add-item {
+  display: inline;
+  margin-right: 10px;
+  padding: 3px;
+}
+
+input {
+  border: #fff 1px solid;
+  padding: 6px;
+}
+
+button {
+  background:  #0f0a01;
+  border: #fff 1px solid;
+  color: #fff;
+  cursor: pointer;
+  padding: 6px 8px;
+}
+
+.items-list-container {
+  height: 195px;
+  overflow: auto;
+}
+
+li {
+  text-align: left;
+  padding: 5px 25px 5px 0;
+}
+
+.delete-item {
+  background: #e74c3c;
+  float:  right;
+  padding: 0 3px;
+}
+
+p {
+  margin: 0;
+}
